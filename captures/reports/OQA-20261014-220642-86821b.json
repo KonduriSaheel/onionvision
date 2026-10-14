@@ -1,0 +1,40 @@
+{
+  "batch_id": "OQA-20261014-220642-6d4333",
+  "title": "Onion quality assessment",
+  "timestamp": "2026-10-14T22:06:42+05:30",
+  "source": null,
+  "total_onions": 1,
+  "good_count": 0,
+  "bad_count": 1,
+  "good_pct": 0.0,
+  "bad_pct": 100.0,
+  "defect_breakdown": {
+    "HEALTHY": 0,
+    "DAMAGED": 0,
+    "ROTTEN": 0,
+    "SPROUTED": 1
+  },
+  "onions": [
+    {
+      "onion_number": 1,
+      "class_name": "SPROUTED",
+      "class_id": 3,
+      "confidence": 0.8227819204330444,
+      "grade": "BAD",
+      "reason": "Visible sprouting detected",
+      "review_state": null,
+      "diameter_mm": null,
+      "measurement_status": "reference_not_detected",
+      "xyxy": [
+        215.31381225585938,
+        19.55252456665039,
+        336.6427917480469,
+        164.5397491455078
+      ]
+    }
+  ],
+  "raw_detections": 1,
+  "calibrated": false,
+  "size_status": "reference_not_detected",
+  "unavailable": null
+}

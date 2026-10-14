@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<title>Onion quality assessment OQA-20261014-220652-cc0693</title>
+<style>
+body { font-family: Segoe UI, sans-serif; margin: 24px; color: #111; }
+h1 { margin-bottom: 4px; }
+.meta, .summary, table { width: 100%; }
+.cards { display: flex; gap: 12px; flex-wrap: wrap; }
+.card { border: 1px solid #ccc; padding: 12px 16px; min-width: 120px; }
+.good { border-color: #2a8; }
+.bad { border-color: #c44; }
+table { border-collapse: collapse; margin-top: 16px; }
+th, td { border: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+th { background: #f4f4f4; }
+.warn { color: #a40; }
+.foot { color: #666; font-size: 12px; margin-top: 24px; }
+</style></head><body>
+<h1>Onion quality assessment</h1>
+<p class="meta">Batch ID <b>OQA-20261014-220652-cc0693</b><br/>
+Timestamp 2026-10-14T22:06:52+05:30<br/>
+Source frozen frame<br/>
+Onions assessed <b>1</b></p>
+
+<div class="cards">
+<div class="card good">GOOD<br/><b>0</b><br/>0.00%</div>
+<div class="card bad">BAD<br/><b>1</b><br/>100.00%</div>
+<div class="card">HEALTHY<br/><b>0</b></div>
+<div class="card">DAMAGED<br/><b>0</b></div>
+<div class="card">ROTTEN<br/><b>0</b></div>
+<div class="card">SPROUTED<br/><b>1</b></div>
+</div>
+<table>
+<thead><tr><th>#</th><th>Class</th><th>Conf</th><th>Grade</th><th>Reason</th><th>Review</th><th>Diameter</th><th>Size status</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>SPROUTED</td><td>0.823</td><td>BAD</td><td>Visible sprouting detected</td><td></td><td>unavailable</td><td>reference_not_detected</td></tr>
+</tbody></table>
+<p class="foot">GOOD/BAD from visible class only. Diameter only if ArUco calibration succeeded.
+RGB cannot detect hidden rot. Generated from Phase C batch assessment — not sample data.</p>
+</body></html>

@@ -1,0 +1,40 @@
+{
+  "batch_id": "OQA-20261014-215914-de6cc4",
+  "title": "Onion quality assessment",
+  "timestamp": "2026-10-14T21:59:14+05:30",
+  "source": null,
+  "total_onions": 1,
+  "good_count": 1,
+  "bad_count": 0,
+  "good_pct": 100.0,
+  "bad_pct": 0.0,
+  "defect_breakdown": {
+    "HEALTHY": 1,
+    "DAMAGED": 0,
+    "ROTTEN": 0,
+    "SPROUTED": 0
+  },
+  "onions": [
+    {
+      "onion_number": 1,
+      "class_name": "HEALTHY",
+      "class_id": 0,
+      "confidence": 0.2728094756603241,
+      "grade": "GOOD",
+      "reason": "No visible defect detected",
+      "review_state": "REVIEW_REQUIRED",
+      "diameter_mm": null,
+      "measurement_status": "reference_not_detected",
+      "xyxy": [
+        561.3767700195312,
+        248.11708068847656,
+        716.3985595703125,
+        469.818359375
+      ]
+    }
+  ],
+  "raw_detections": 1,
+  "calibrated": false,
+  "size_status": "reference_not_detected",
+  "unavailable": null
+}
